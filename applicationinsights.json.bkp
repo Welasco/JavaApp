@@ -1,0 +1,45 @@
+{
+    "connectionString": "InstrumentationKey=key;IngestionEndpoint=https://centralus-2.in.applicationinsights.azure.com/;LiveEndpoint=https://centralus.livediagnostics.monitor.azure.com/",
+    "jmxMetrics": [
+        {
+          "name": "Demo - Heap Memory Usage - Committed",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "HeapMemoryUsage.committed"
+        },
+        {
+          "name": "Demo - Heap Memory Usage - init",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "HeapMemoryUsage.init"
+        },
+        {
+          "name": "Demo - Heap Memory Usage - max",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "HeapMemoryUsage.max"
+        },
+        {
+          "name": "Demo - Heap Memory Usage - used",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "HeapMemoryUsage.used"
+        },
+        {
+          "name": "Demo - NonHeap Memory Usage - committed",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "NonHeapMemoryUsage.committed"
+        },
+        {
+          "name": "Demo - NonHeap Memory Usage - init",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "NonHeapMemoryUsage.init"
+        },
+        {
+          "name": "Demo - NonHeap Memory Usage - max",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "NonHeapMemoryUsage.max"
+        },
+        {
+          "name": "Demo - NonHeap Memory Usage - used",
+          "objectName": "java.lang:type=Memory",
+          "attribute": "NonHeapMemoryUsage.used"
+        }
+  ]
+}
